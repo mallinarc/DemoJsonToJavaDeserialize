@@ -16,6 +16,7 @@ public class App {
 		ObjectMapper mapper = new ObjectMapper();
 		// mapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_CONCRETE_AND_ARRAYS);
 		// mapper.enableDefaultTyping();
+		mapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_CONCRETE_AND_ARRAYS);
 
 		try {
 			Parent wrapper = mapper.readValue(file, Parent.class);

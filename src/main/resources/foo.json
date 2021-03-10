@@ -3,8 +3,5 @@
   "data": [{
     "someCommonProperty": "common property",
     "fooProperty": "foo specific property"
-  },{
-    "someCommonProperty": "common property1",
-    "fooProperty": "foo specific property1"
   }]
 }
