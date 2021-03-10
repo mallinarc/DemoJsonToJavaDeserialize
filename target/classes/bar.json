@@ -1,0 +1,12 @@
+{
+  "type": "bar",
+  "data": [{
+    "someCommonProperty": "common property",
+    "barProperty": "bar specific property",
+    "type": "type1"
+  },{
+    "someCommonProperty": "common property1",
+    "barProperty": "bar specific property1",
+    "type": "type1"
+  }]
+}
